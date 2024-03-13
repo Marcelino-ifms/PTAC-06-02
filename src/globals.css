@@ -14,6 +14,7 @@ body{
 
 
 ul{
+  
     position: absolute;
 }
 
@@ -62,3 +63,62 @@ font-family: Sans-serif;
     width: 45px;
         height: 40px;
 }
+
+
+
+/* footer */
+footer{
+    border-top: 1px solid black ;
+    width: 100%;
+    background-color: white;
+    color: black;
+    margin-top: 520px;
+}
+
+
+#hocksFooter{
+    text-align: center;
+    padding-top: 38px;
+
+}
+
+#redes-sociais {
+    width: 100%;
+    text-align: center;
+    color: black;
+    padding-top: 30px;
+  }
+
+  #redes-sociais li{
+    width: 100px;
+  }
+
+  #tamanhoDaRedesocial{
+    font-size: 18px;
+    margin: 0;
+    font-family: Sans-serif;
+  }
+
+  #tamanhoDaRedeS{
+    width: 65px;
+    height: 60px;
+  }
+
+  #tamanhoDaRedeInsta{
+    width: 50px;
+    height: 50px;
+    opacity : 1.8;
+  }
+
+  #descricoes{
+    line-height: 7.0px;
+    text-align: center;
+    color: black;
+    padding-top: 24px;
+    font-family: Arial;
+  }
+
+  #transparente{
+    color: rgba(255, 255, 255, 0.5);
+  }
+
