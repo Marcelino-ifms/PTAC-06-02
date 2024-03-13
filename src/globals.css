@@ -70,9 +70,10 @@ font-family: Sans-serif;
 footer{
     border-top: 1px solid black ;
     width: 100%;
-    background-color: white;
-    color: black;
-    margin-top: 520px;
+    height: 200px;
+    background-color:black;
+    color: white;
+    margin-top: 100px;
 }
 
 
@@ -85,7 +86,7 @@ footer{
 #redes-sociais {
     width: 100%;
     text-align: center;
-    color: black;
+    color: white;
     padding-top: 30px;
   }
 
@@ -96,7 +97,7 @@ footer{
   #tamanhoDaRedesocial{
     font-size: 18px;
     margin: 0;
-    font-family: Sans-serif;
+  
   }
 
   #tamanhoDaRedeS{
@@ -113,7 +114,7 @@ footer{
   #descricoes{
     line-height: 7.0px;
     text-align: center;
-    color: black;
+    color: white;
     padding-top: 24px;
     font-family: Arial;
   }
