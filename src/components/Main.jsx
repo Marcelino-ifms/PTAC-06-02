@@ -13,6 +13,7 @@ export default function Main(){
          onChange={(event)=> setNome(event.target.value)}
          />
          </label>
+         <button>Cadastre-se</button>
          {nome}
 
          <br/>
@@ -25,6 +26,7 @@ export default function Main(){
          onChange={(event)=> setTelefone(event.target.value)}
          />
          </label>
+          <button>Cadastre-se</button>
          {telefone}
 
   
