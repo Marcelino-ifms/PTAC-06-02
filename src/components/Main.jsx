@@ -6,6 +6,8 @@ export default function Main(){
     return(
       <main>
 
+
+<form>
 <label> Nome:
          <input
          type="text"
@@ -21,13 +23,14 @@ export default function Main(){
     
 <label> Telefone:
          <input
-         type="text"
+         type="tel"
          name="" id=""
          onChange={(event)=> setTelefone(event.target.value)}
          />
          </label>
           <button>Cadastre-se</button>
          {telefone}
+</form>
 
   
       </main>
