@@ -39,18 +39,24 @@ export default function Main(){
          <br/>
          <br/>
     
+
          <label htmlFor="telefone"> Telefone:  </label>
+
+<label htmlFor="telefone"> Telefone:  </label>
+
          <input
          type="tel"
          name="" id=""
          value={telefone}
          onChange={(event)=> setTelefone(event.target.value)}
          />
+
           <button>Cadastre-se</button>
          {telefone}
          
            <br/>
            <br/>
+
 
                 <label htmlFor="email"> Email:  </label>
                 <input
@@ -64,7 +70,6 @@ export default function Main(){
                 {email}
 
          </form>
-  
       </main>
     );
 }
